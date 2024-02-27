@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESDA RTC CALABARZON</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/08a383ed5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+               
+                <div class="logo_name"> <img src="img/tesda-logo.png" width="40px" height="40px"></div>
+            </div>
+        </div>
+        <!-- <i class="fa-solid fa-bars" onclick="openmenu()" id="btn"></i> -->
+        <ul class="nav_list">
+            <!-- <li>
+                <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search" class="links_name">
+                </a>
+                <span class="tooltip">Search</span>
+            </li> -->
+            <!-- <li>
+                <a href="dashboard.html">
+                    <i class="fa-solid fa-grip-vertical"></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li> -->
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <!-- <li>
+                <a href="about.html">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span class="links_name">About</span>
+                </a>
+                <span class="tooltip">About</span>
+            </li> -->
+            <li>
+                <a href="trans.html">
+                    <i class="fa-solid fa-grip-vertical"></i>
+                    <span class="links_name">Transparency</span>
+                </a>
+                <span class="tooltip">Transparency</span>
+            </li>
+            <li>
+                <a href="pg&o.html">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <span class="links_name">Program Goal & Objectives</span>
+                </a>
+                <span class="tooltip">Program Goal & Objectives</span>
+            </li>
+<!--  -------------------------------------------------------------- -->
+<li>
+    <a href="officials.html">
+        <i class="fa-solid fa-people-group"></i>
+        <span class="links_name">Officials</span>
+    </a>
+    <span class="tooltip">Officials</span>
+</li>
+
+<li>
+    <a href="contact.html">
+        <i class="fa-solid fa-address-book"></i>
+        <span class="links_name">Contacts</span>
+    </a>
+    <span class="tooltip">Contacts</span>
+</li>
+<!--  ------------------------------------------------------------ -->
+
+        </ul>
+    
+
+        <!-- <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="" alt="">
+                    <div class="name_job">
+                        <div class="ebon">Christian C. Ebon</div>
+                        <div class="job">Web Designer</div>
+                       
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-from-bracket fa-flip-horizontal" id="log_out"></i>
+            </div>
+        </div> -->
+        
+    </div>
+
+    <div class="trans_content">
+        <h1 class="text">Transparency</h1>
+        <hr>
+        <div class="trans_logo">
+            <img class="seal" src="img/transparency_seal.png" >
+        </div>
+       
+        <p class="defi"> A Transparency Seal, prominently displayed on the main page of the website of a particular government agency, is a certificate that it has complied with the requirements of Section 93.
+            This Seal links to a page within the agency’s website which contains an index of downloadable items of each of the above-mentioned documents.</p>
+    
+<div>
+    <br><br>
+    <h1 class="text">Symbolism</h1>
+    <hr>
+    <p class="defi">A pearl buried inside a tightly-shut shell is practically worthless. Government information is a pearl, meant to be shared with the public in order to maximize its inherent value.
+     The Transparency Seal, depicted by a pearl shining out of an open shell, is a symbol of a policy shift towards openness in access to government information. On the one hand, it hopes to inspire Filipinos in the civil service to be more open to citizen engagement; on the other, to invite the Filipino citizenry to exercise their right to participate in governance.
+     This initiative is envisioned as a step in the right direction towards solidifying the position of the Philippines as the Pearl of the Orient – a shining example for democratic virtue in the region.</p>
+    
+</div>
+    </div>
+    
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let serachBtn = document.querySelector(".fa-magnifying-glass");
+
+
+        btn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+        serachBtn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+    </script>
+
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.officials_content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Adjust as needed */
+    padding: 30px;
+}
+
+.officials_content .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.officials_content .imgs{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.officials_content .imgs img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    
+}
+
+.officials_content .name{
+    font-size: 11px;
+    margin-top: 10px;
+}
